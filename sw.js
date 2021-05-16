@@ -10,10 +10,10 @@ var urlsToCache = [
   '/',
   'style.css',
   'settings.svg',
-  '/components/entry-page.js',
-  '/components/journal-entry.js',
-  '/scripts/router.js',
-  '/scripts/script.js'
+  './components/entry-page.js',
+  './components/journal-entry.js',
+  './scripts/router.js',
+  './scripts/script.js'
 ];
 
 if ('serviceWorker' in navigator) {
