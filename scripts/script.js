@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Event listner for settings
 document.querySelector('img').addEventListener('click', () => {
-  push(i, "http://127.0.0.1:5500/#settings");
+  push(i, "https://t2wang.github.io/#settings");
   i = i + 1;
   //history.pushState("settings", null, "https://t2wang.github.io/#settings");
   document.querySelector('h1').innerHTML = "Settings";
@@ -53,7 +53,7 @@ window.onpopstate = function(e){
 
 //Event listener for title
 document.querySelector('h1').addEventListener('click', ()=>{
-  push(i, "http://127.0.0.1:5500/index.html");
+  push(i, "https://t2wang.github.io/Lab7");
   i = i + 1;
   //history.pushState("index",null,"https://t2wang.github.io/Lab7");
   document.body.setAttribute('class',"");
