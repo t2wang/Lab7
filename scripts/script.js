@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Event listener for single page
         newPost.addEventListener('click', ()=>{
-          var p = "http://127.0.0.1:5500/#entry" + (index + 1);
+          var p = "https://t2wang.github.io/#entry" + (index + 1);
           var title = "Entry " + (index + 1);
           push(i, p);
           i = i + 1;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.querySelector('img').addEventListener('click', () => {
   push(i, "http://127.0.0.1:5500/#settings");
   i = i + 1;
-  //history.pushState("settings", null, "http://127.0.0.1:5500/#settings");
+  //history.pushState("settings", null, "https://t2wang.github.io/#settings");
   document.querySelector('h1').innerHTML = "Settings";
   document.body.setAttribute('class',"settings");
 });
@@ -55,7 +55,7 @@ window.onpopstate = function(e){
 document.querySelector('h1').addEventListener('click', ()=>{
   push(i, "http://127.0.0.1:5500/index.html");
   i = i + 1;
-  //history.pushState("index",null,"http://127.0.0.1:5500/index.html");
+  //history.pushState("index",null,"https://t2wang.github.io/Lab7");
   document.body.setAttribute('class',"");
   document.querySelector('h1').innerHTML = "Journal Entries";
 });
