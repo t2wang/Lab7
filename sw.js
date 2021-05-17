@@ -7,7 +7,7 @@
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  './',
+  '/',
   'style.css',
   'settings.svg',
   './components/entry-page.js',
